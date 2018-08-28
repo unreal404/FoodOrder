@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.neusoft.zw725.foodorder.fragment.ShopFragment">
+
+
+    <TextView
+        android:id="@+id/tv_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="店铺列表"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shop_rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
